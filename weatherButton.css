@@ -17,22 +17,10 @@ body {
 #datebox{
     
 }
-@media(max-width:  480px){
-    width: auto;
-	margin: auto;
-}
 
-button {
-	border-radius: 20px;
-	font-size: medium;
-	color: white;
-}
 
 #submit{
     background-color: #00BAF1;
-    /*position: absolute;
-    left: 1000px;
-    top: 100px;*/
     margin-left: 1000px;
     margin-top: 10px;
 }
@@ -42,16 +30,12 @@ input {
 }
 
 #zipbox{
-    /*position: absolute;
-    left: 1000px;
-    top: 110px;*/
     margin-left: 1000px;
     margin-top: 50px;
     border-radius: 10px;
 }
 @media(max-width: 480px){
     #zipbox{
-        background-color: pink;
     }
 }
 
@@ -62,8 +46,6 @@ input {
 }
 @media(max-width: 480px){
      #time{
-     position: relative;
-     left: 0px;
      }
 }
 
@@ -73,9 +55,8 @@ input {
    left: 200px;
 }
 
-
 p {
-	color: white;
+color: white;
 }
 
 #todayWeather{
@@ -147,28 +128,12 @@ p {
 #windSpeedImg{
     vertical-align:middle
 }
-/*.floatLeft{
-    position: relative;
-    left: 300px;
-    top: 300px;
-}
-
-.floatRight{
-    position: relative;
-    right: 100px;
-    top: 100px;
-}*/
 
 .forecastDate{
     font-size: large;
 }
 
 #container{
-
-    /*margin-left: 4vm;
-    margin-right: 4vm;*/
-	/*overflow: hidden;   /* let slider disappear off end */
-	/* flexbox */
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
@@ -185,7 +150,8 @@ p {
     }
 }
 
-/*.forecast1 .forecast2 .forecast3 .forecast4 .forecast5 .forecast6 .forecast7 .forecast8 .forecast9 .forecast10*/
+
+
 .forecast{
   width: 18%;
   min-width: 150px;
