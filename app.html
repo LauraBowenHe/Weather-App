@@ -1,0 +1,113 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width"> 
+    <link rel="stylesheet" type="text/css" href="weatherButton.css"></link>
+	<title>Weather App</title>
+</head>
+
+<body>
+<!--<input id="zipbox" type="text" placeholder="zipcode or place name">
+<button id = "submit" onclick="gotNewPlace()">submit</button>
+-->
+<div id = "dateBox">
+    <input id="zipbox" type="text" placeholder="zipcode or place name">
+    <button id = "submit" onclick="gotNewPlace()">submit</button>
+    <p id = "time"></p>
+    <p id = "date"></p>
+</div>
+
+<div id = "todayWeather">
+    <img id = "weatherImg" src = "" />
+    <div id = "city">
+        <p id = "cityName"></p>
+        <p id = "temperature"></p>
+        <p id = "weather"></p>
+    </div>
+    <div id = "humAndWind">
+        <div><img id = "humImg" src = "" /><p id = "humidity"></p></div>
+        <div><img id = "windSpeedImg" src =""><p id = "windSpeed"></p></div>
+    </div>
+</div>
+
+</div>
+<div id = "container">
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     <div class = "forecast">
+        <p class = "forecastDate"></p>
+        <img class = "forecastImg" src = "" />
+        <div class = "forecastWeather"></div>
+        <div class = "forecastTemp"></div>
+     </div>
+     
+</div>
+
+<div>
+   <p id = "prvForecast">previous forecasts</p>
+   <input id = "leftSlide" type="image" src="./WeatherApp/arrow-left.png" alt="arrow-left.png" onclick = "buttonLefttAction()"/>
+</div>
+<div>
+    <p id = "moreForecast">more forecasts</p>
+   <input id = "rightSlide" type="image" src="./WeatherApp/arrow-right.png" alt="arrow-right.png" onclick = "buttonRightAction()"/>
+</div>
+
+<p id = "acknowledge">Powered by YAHOO!</p>
+
+<script src="weatherButton.js"></script>
+
+</body>
+</html>
